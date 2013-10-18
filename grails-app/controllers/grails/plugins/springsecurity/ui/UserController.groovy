@@ -15,10 +15,10 @@
 package grails.plugins.springsecurity.ui
 
 import grails.converters.JSON
+import grails.plugin.springsecurity.SpringSecurityUtils
+import grails.plugin.springsecurity.authentication.dao.NullSaltSource
 import grails.util.GrailsNameUtils
 
-import org.codehaus.groovy.grails.plugins.springsecurity.NullSaltSource
-import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils
 import org.springframework.dao.DataIntegrityViolationException
 
 /**

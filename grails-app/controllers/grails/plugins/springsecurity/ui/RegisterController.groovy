@@ -14,10 +14,10 @@
  */
 package grails.plugins.springsecurity.ui
 
+import grails.plugin.springsecurity.SpringSecurityUtils
+import grails.plugin.springsecurity.authentication.dao.NullSaltSource
 import groovy.text.SimpleTemplateEngine
 
-import org.codehaus.groovy.grails.plugins.springsecurity.NullSaltSource
-import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils
 import org.codehaus.groovy.grails.plugins.springsecurity.ui.RegistrationCode
 
 /**
